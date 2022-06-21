@@ -17,10 +17,4 @@ public class LeadIntegrationController {
 		
 		return "This is working!";
 	}
-
-    @RequestMapping(method=RequestMethod.POST)
-	public ResponseEntity<Void> insert(@RequestBody Lead obj){
-
-		return null;
-	}
 }
